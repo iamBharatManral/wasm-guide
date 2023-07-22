@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+
+h1 {
+    color: brown;
+}
+
+p {
+    font-size: 1.3rem;
+    color: green;
+}
+
+span{
+    color: midnightblue;
+    font-weight: bolder;
+}
