@@ -1,9 +1,3 @@
-const fetchAndInstantiate = (url, importObject) =>
-    fetch(url)
-        .then(response => response.arrayBuffer())
-        .then(bytes => WebAssembly.instantiate(bytes, importObject))
-        .then(results => results.instance)
-
 const render = data => {
     const age = document.querySelector("#age")
     age.innerText = data;
